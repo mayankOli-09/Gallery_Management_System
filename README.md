@@ -1,4 +1,5 @@
 🖼️Introduction
+
 Gallery Management System is a cutting-edge web application designed to revolutionize how you handle image-related tasks. Seamlessly create dynamic albums, organize images in an interactive, visually stunning gallery interface, and enjoy a streamlined workflow for uploads and deletions. With robust undo/redo functionality, you can experiment fearlessly—revert changes instantly without risking your data. The magic? Integration with the Gemini AI API, which automatically generates intelligent, context-aware descriptions for every image, enhancing accessibility, SEO, and metadata management. Whether you're a photographer curating portfolios, a developer building media apps, or a team needing collaborative galleries, this system scales effortlessly.
 
 🎯 Core Features 
