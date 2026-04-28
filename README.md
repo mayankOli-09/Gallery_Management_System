@@ -1,3 +1,8 @@
+Here's the polished README for your Gallery Management System, styled to match your WeatherWise Explorer format:
+
+---
+
+```markdown
 # 🖼️ Gallery Management System — AI-Powered Image Organizer
 
 <div align="center">
@@ -80,3 +85,74 @@ PORT=3000
 ---
 
 ## 🏗️ Project Structure
+
+```
+Gallery_Management_System/
+├── src/
+│   ├── backend/
+│   │   ├── server.js             # Node.js entry point
+│   │   ├── routes/               # API routes (upload, delete, albums)
+│   │   ├── services/             # Gemini AI integration & image logic
+│   │   └── core/                 # C++ performance modules
+│   └── frontend/
+│       ├── index.html            # Main gallery interface
+│       ├── css/                  # Styles & responsive layout
+│       └── js/                   # Drag-and-drop, undo/redo logic
+├── .env.example
+├── package.json
+└── README.md
+```
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| **Frontend** | HTML, CSS, JavaScript |
+| **Backend** | Node.js |
+| **Performance Core** | C++ |
+| **AI Integration** | Google Gemini API |
+
+---
+
+## 📸 How It Works
+
+```
+User uploads image(s)
+        ↓
+Gallery Management System stores & validates the files
+        ↓
+Gemini AI analyzes each image and generates a smart caption
+        ↓
+Images are organized into albums with metadata & descriptions
+        ↓
+User can browse, zoom, reorder, or undo any action — instantly!
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Here's how:
+
+```bash
+# Fork the repo, then:
+git checkout -b feature/your-feature-name
+git commit -m "Add: your feature description"
+git push origin feature/your-feature-name
+# Open a Pull Request 🎉
+```
+
+---
+
+<div align="center">
+
+Built with ❤️ by <a href="https://github.com/mayankOli-09">Mayank Oli</a> &nbsp;|&nbsp; ⭐ Star this repo if it helped you!
+
+</div>
+```
+
+---
+
+This matches the WeatherWise style with the same badge layout, feature table, project structure tree, "How It Works" flowchart, and footer. Just drop this into your `README.md` and you're good to go!
