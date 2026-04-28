@@ -1,8 +1,4 @@
-Here's the polished README for your Gallery Management System, styled to match your WeatherWise Explorer format:
 
----
-
-```markdown
 # 🖼️ Gallery Management System — AI-Powered Image Organizer
 
 <div align="center">
@@ -65,7 +61,6 @@ cp .env.example .env
 
 # 4. Run the dev server
 npm run dev
-```
 
 Then open your browser at **`http://localhost:3000`** and start organizing! 🗂️
 
