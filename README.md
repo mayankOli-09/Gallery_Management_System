@@ -154,5 +154,3 @@ Built with ❤️ by <a href="https://github.com/mayankOli-09">Mayank Oli</a> &n
 ```
 
 ---
-
-This matches the WeatherWise style with the same badge layout, feature table, project structure tree, "How It Works" flowchart, and footer. Just drop this into your `README.md` and you're good to go!
