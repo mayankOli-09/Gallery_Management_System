@@ -1,23 +1,82 @@
-🖼️Introduction
+# 🖼️ Gallery Management System — AI-Powered Image Organizer
 
-Gallery Management System is a cutting-edge web application designed to revolutionize how you handle image-related tasks. Seamlessly create dynamic albums, organize images in an interactive, visually stunning gallery interface, and enjoy a streamlined workflow for uploads and deletions. With robust undo/redo functionality, you can experiment fearlessly—revert changes instantly without risking your data. The magic? Integration with the Gemini AI API, which automatically generates intelligent, context-aware descriptions for every image, enhancing accessibility, SEO, and metadata management. Whether you're a photographer curating portfolios, a developer building media apps, or a team needing collaborative galleries, this system scales effortlessly.
+<div align="center">
 
-🎯 Core Features 
-1. Interactive Gallery Interface: Drag-and-drop albums, zoomable previews, and responsive grid layouts for immersive browsing.
-2. Efficient Upload/Delete: Progress tracking, bulk operations, and validation for a buttery-smooth user experience.
-3. Undo/Redo Stack: Full history management to safely navigate edits, powered by a custom state machine.
-4. AI-Generated Descriptions: Leverages Gemini API for natural language captions (e.g., "A vibrant sunset over Himalayan peaks with golden hues").
-5. Performance Optimized: Lazy loading, compression, and caching for lightning-fast interactions.
+**Create albums, organize images, and get AI-generated descriptions — all in one place**
 
-🛠 Tech Stack Frontend: HTML + CSS
-Backend: Node.js + C++
-AI Integration: Google Gemini API
+*Dynamic Albums • Smart AI Captions • Undo/Redo History • Node.js + C++*
 
-🚀 Quick Start Clone the repo:
+[![GitHub stars](https://img.shields.io/github/stars/mayankOli-09/Gallery_Management_System?style=social)](https://github.com/mayankOli-09/Gallery_Management_System)
+[![Node.js](https://img.shields.io/badge/Node.js-18%2B-green?logo=node.js)](https://nodejs.org/)
+[![C++](https://img.shields.io/badge/C%2B%2B-17-blue?logo=cplusplus)](https://isocpp.org/)
+[![Gemini API](https://img.shields.io/badge/Powered%20by-Google%20Gemini-orange?logo=google)](https://ai.google.dev/)
 
-bash git clone https:
-https://github.com/mayankOli-09/Gallery_Management_System/edit/main/README.md
+</div>
 
-Install dependencies: bash npm install
-Set up env (add your Gemini API key): bash cp .env.example .env
-Run the dev server: bash npm run dev Open http://localhost:3000
+---
+
+## 🎯 What is Gallery Management System?
+
+Gallery Management System is a **cutting-edge web application** that revolutionizes how you handle image-related tasks. It combines an **interactive gallery interface** with **Google Gemini AI** to automatically generate intelligent, context-aware descriptions for every image — enhancing accessibility, SEO, and metadata management.
+
+No more manual captioning or clunky album tools. Gallery Management System brings it all together.
+
+---
+
+## ✨ Key Features
+
+| Feature | Description |
+|--------|-------------|
+| 🖼️ **Interactive Gallery** | Drag-and-drop albums, zoomable previews, and responsive grid layouts |
+| ⬆️ **Efficient Upload/Delete** | Progress tracking, bulk operations, and file validation |
+| ↩️ **Undo/Redo Stack** | Full history management powered by a custom state machine |
+| 🤖 **AI-Generated Descriptions** | Gemini API generates natural language captions for every image |
+| ⚡ **Performance Optimized** | Lazy loading, compression, and caching for lightning-fast interactions |
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- **Node.js 18+**
+- A **Google Gemini API key** → [Get one free here](https://ai.google.dev/)
+
+### Setup & Run
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/mayankOli-09/Gallery_Management_System.git
+cd Gallery_Management_System
+
+# 2. Install dependencies
+npm install
+
+# 3. Set up your environment
+cp .env.example .env
+# Open .env and add your Gemini API key
+
+# 4. Run the dev server
+npm run dev
+```
+
+Then open your browser at **`http://localhost:3000`** and start organizing! 🗂️
+
+---
+
+## 🔑 API Key Configuration
+
+In your `.env` file:
+
+```env
+GEMINI_API_KEY=your_google_gemini_api_key
+PORT=3000
+```
+
+> **Get your free API key** at [ai.google.dev](https://ai.google.dev/) — the free tier is more than enough to run this project.
+
+---
+
+## 🏗️ Project Structure
