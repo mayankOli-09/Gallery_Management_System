@@ -1,4 +1,3 @@
-
 # 🖼️ Gallery Management System — AI-Powered Image Organizer
 
 <div align="center">
@@ -61,22 +60,9 @@ cp .env.example .env
 
 # 4. Run the dev server
 npm run dev
-
-Then open your browser at **`http://localhost:3000`** and start organizing! 🗂️
-
----
-
-## 🔑 API Key Configuration
-
-In your `.env` file:
-
-```env
-GEMINI_API_KEY=your_google_gemini_api_key
-PORT=3000
 ```
 
-> **Get your free API key** at [ai.google.dev](https://ai.google.dev/) — the free tier is more than enough to run this project.
-
+Then open your browser at **`http://localhost:3000`** and start organizing! 🗂️
 ---
 
 ## 🏗️ Project Structure
